@@ -11,6 +11,15 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
+}
+
+button:focus {
+    border: 2px solid black;
+}
+
+a:focus {
+    border: 2px solid black;
 }
 
 a:hover {
